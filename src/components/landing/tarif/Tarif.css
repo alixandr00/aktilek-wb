@@ -1,0 +1,51 @@
+/* .pll {
+  @media (max-width: 790px) {
+    width: 40rem;
+  }
+  @media (max-width: 650px) {
+    width: 30rem;
+  }
+  @media (max-width: 500px) {
+    width: 20rem;
+  }
+}
+
+.textt {
+  @media (max-width: 700px) {
+    font-size: 1.5rem;
+  }
+  @media (max-width: 500px) {
+    font-size: 1rem;
+  }
+}
+
+.expert {
+  @media (max-width: 700px) {
+    height: 100vh;
+  }
+}
+
+.phh {
+  @media (max-width: 800px) {
+    flex-wrap: wrap;
+  }
+}
+
+.tariff {
+  @media (max-width: 500px) {
+    text-align: center;
+    font-size: 1rem;
+  }
+}
+
+.online {
+  @media (max-width: 500px) {
+    font-size: 0.8rem;
+  }
+}
+
+.bron {
+  @media (max-width: 500px) {
+    margin-left: 0;
+  }
+} */

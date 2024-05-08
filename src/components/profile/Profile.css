@@ -1,0 +1,28 @@
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.icon {
+  margin: 0 10px;
+  color: #666; /* Цвет иконок */
+  font-size: 24px; /* Размер иконок */
+  transition: color 0.3s; /* Плавный переход цвета */
+}
+
+.icon-telegram:hover {
+  color: #29b6f6; /* Голубой цвет для Telegram */
+}
+
+.icon-youtube:hover {
+  color: #ff0000; /* Красный цвет для YouTube */
+}
+
+.icon-facebook:hover {
+  color: #4267b2; /* Синий цвет для Facebook */
+}
+
+.icon-instagram:hover {
+  color: #e1306c; /* Розовый цвет для Instagram, можно добавить градиент */
+}

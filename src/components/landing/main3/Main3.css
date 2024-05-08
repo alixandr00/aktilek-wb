@@ -1,0 +1,14 @@
+/* .mll {
+  @media (max-width: 800px) {
+    width: 40rem;
+  }
+  @media (max-width: 700px) {
+    width: 30rem;
+  }
+  @media (max-width: 600px) {
+    width: 25rem;
+  }
+  @media (max-width: 500px) {
+    width: 15rem;
+  }
+} */
