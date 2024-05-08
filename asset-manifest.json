@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1ed9e62f.css",
+    "main.js": "/static/js/main.837d9538.js",
+    "static/media/Снимок экрана 2024-05-06 203301.png": "/static/media/Снимок экрана 2024-05-06 203301.9b9e5fc39597690e23a7.png",
+    "static/media/Снимок экрана 2024-05-06 203559.png": "/static/media/Снимок экрана 2024-05-06 203559.ce13ef32742da5317ba0.png",
+    "static/media/benefits-03.svg": "/static/media/benefits-03.dd4a0447d8fbd23afa40ee8d90c2d275.svg",
+    "static/media/benefits-020.svg": "/static/media/benefits-020.4df571912aeb75486b817dd07591da3f.svg",
+    "static/media/benefits-04.svg": "/static/media/benefits-04.14bc173ad254a7d5e445f688a0b7a5a3.svg",
+    "static/media/benefits-01.svg": "/static/media/benefits-01.2cccce812908f1e20b0dab6067659cc3.svg",
+    "static/media/icons8-vk.svg": "/static/media/icons8-vk.f58247bb013c20e63393dcd747e56df0.svg",
+    "static/media/icons8-whatsapp.svg": "/static/media/icons8-whatsapp.7b0b9dd8db154f3f6a657a35ea4ed047.svg",
+    "static/media/icons8-youtube.svg": "/static/media/icons8-youtube.93786b18d93798c30e7ec17d3f7de738.svg",
+    "static/media/icons8-telegram.svg": "/static/media/icons8-telegram.0224613da7508dd469485dde58aca284.svg",
+    "static/media/icons8-instagram.svg": "/static/media/icons8-instagram.412507577029054cd5d7c565b2e0d847.svg",
+    "index.html": "/index.html",
+    "static/media/xicon.svg": "/static/media/xicon.f961e9c675f353076acad30640b53c51.svg",
+    "static/media/plus.svg": "/static/media/plus.854c9902bd625ede6938fbed417935c7.svg",
+    "main.1ed9e62f.css.map": "/static/css/main.1ed9e62f.css.map",
+    "main.837d9538.js.map": "/static/js/main.837d9538.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ed9e62f.css",
+    "static/js/main.837d9538.js"
+  ]
+}
