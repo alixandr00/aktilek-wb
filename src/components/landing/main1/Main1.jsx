@@ -43,7 +43,7 @@ export const Main1 = ({ tarifRef }) => {
         <Link to="login">
           <div className="border-2 border-[#0f3460]">
             <p className="text-white cd:text-[1,5rem] py-3 px-8 text-[1rem] cd:text-start text-center">
-              РЕГИСТРАЦИЯ
+              КАТТАЛУУ
             </p>
           </div>
         </Link>
@@ -52,8 +52,8 @@ export const Main1 = ({ tarifRef }) => {
           className="border-2 border-[#0f3460] cursor-pointer"
           onClick={handleLogout}
         >
-          <p className="text-white cd:text-[1,5rem] py-3 px-8 text-[1rem] cd:text-start text-center">
-            Выйти
+          <p className="text-white cd:text-[1,5rem] py-3 px-8 text-[1rem] a cd:text-start text-center">
+            ЧЫГУУ
           </p>
         </div>
       )}
