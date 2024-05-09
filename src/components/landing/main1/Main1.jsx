@@ -69,7 +69,7 @@ export const Main1 = ({ tarifRef }) => {
       <div data-aos="fade-right" className="mt-8 cd:w-full w-[13rem]">
         <p className="text-[white] md:text-[1.3rem] text-[1rem] cd:ml-0  cd:text-center text-center  ">
           <span className="text-[#e94560] ">WILDBERRIES'ти </span> Актилек
-          Исламбектен окуп уйонуу
+          Исламбектен окуп уйронуу
         </p>
         <p className="text-[white] md:text-[1.3rem] text-[1rem]  cd:text-center text-center">
           Жаныдан баштагысы келгендерге жана учурда иштеп, бирок соодасы болбой
@@ -167,7 +167,7 @@ export const Main1 = ({ tarifRef }) => {
         <div>
           <p
             data-aos="fade-right"
-            className="text-[#e94560] cd:text-[1.5rem] text-[2rem] font-extrabold "
+            className="text-[#e94560] cd:text-[1.5rem] text-[1rem] cd:text-start text-center cd:w-full w-[15rem] font-extrabold "
           >
             ОКУУ ПРОГРАММАЛАРЫ ОНЛАЙН ФОРМАТТА ЖАНА ТУЗ ЭФИРЛЕР АРКЫЛУУ ОТУЛОТ
           </p>

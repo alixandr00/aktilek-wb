@@ -158,7 +158,7 @@ export const Main2 = () => {
       </div>
       <Link className="flex justify-center mt-12">
         <div className="border-2 border-[#0f3460] cursor-pointer">
-          <p className="text-white cd:text-[1,5rem] py-3 px-8 text-[1rem] cd:text-start text-center">
+          <p className="text-white  cd:py-3 py-2 cd:px-8 px-4 cd:text-[1.5rem] text-[0.8rem]  cd:text-start text-center">
             АКЫСЫЗ САБАК(WILDBERRIES'ТЕ СООДА КЫЛУУ)
           </p>
         </div>
