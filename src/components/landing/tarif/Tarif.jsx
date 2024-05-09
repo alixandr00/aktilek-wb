@@ -69,7 +69,7 @@ export const Tarif = ({ tarifRef }) => {
       ref={tarifRef}
       className="flex flex-col  items-center bg-[rgb(16,16,16)]  "
     >
-      <div className="cd:w-[70rem] w-[20rem] cd:h-[80vh] h-[120vh]   mt-8 pll ">
+      <div className="cd:w-[70rem] w-[20rem] cd:h-[80vh] h-[90vh]   mt-8 pll ">
         <p
           data-aos={isMobile ? "fade-right" : "fade-left"}
           className="cd:text-[3rem] text-[1.5rem] cd:ml-0 ml-[4rem] centeerr  font-extrabold text-white mb-8 cd:text-start text-center"
@@ -121,7 +121,7 @@ export const Tarif = ({ tarifRef }) => {
           {open4 && <Modal4 open4={open4} setOpen4={setOpen4} />}
         </div>
       </div>
-      <div className="cd:w-[70rem] w-[20rem] pll cd:h-[70vh] h-[160vh] mt-8 ">
+      <div className="cd:w-[70rem] w-[20rem] pll cd:h-[70vh] h-[90vh] mt-8 ">
         <div className="flex gap-20  border-t-2 cd:flex-nowrap flex-wrap cd:px-0 px-[3rem] border-[white]">
           <div className="mt-8 pl-4 w-[40rem]">
             <p
@@ -218,7 +218,7 @@ export const Tarif = ({ tarifRef }) => {
           </div>
         </div>
       </div>
-      <div className="w-[75%] h-[110vh] hei">
+      <div className="w-[75%] h-[80vh] hei">
         <p
           data-aos="fade-right"
           className="text-white md:text-[3rem] text-[1.5rem] font-bold mb-8"
@@ -303,12 +303,12 @@ export const Tarif = ({ tarifRef }) => {
         <a
           data-aos="zoom-in"
           href="https://www.youtube.com/@Aktilek.Islanbek"
-          className="w-[20rem] h-[8vh] bg-[red] rounded-[0.5rem] flex justify-center items-center"
+          className="w-[20rem] h-[8vh] bg-[red] rounded-[0.5rem] mb-[5rem] flex justify-center items-center"
         >
           <Youtube />
         </a>
       </div>
-      <div className="flex cd:flex-nowrap flex-wrap justify-center gap-[10rem] mb-20 mt-20">
+      {/* <div className="flex cd:flex-nowrap flex-wrap justify-center gap-[10rem] mb-20 mt-20">
         <div className="text-white">
           <p data-aos={isMobile ? "fade-right" : "fade-left"}>
             ИП Кадыркулов Адилет
@@ -329,7 +329,7 @@ export const Tarif = ({ tarifRef }) => {
           </p>
           <p data-aos="fade-right">wb.cartel.kg@gmail.com</p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

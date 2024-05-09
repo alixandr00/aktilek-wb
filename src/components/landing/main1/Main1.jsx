@@ -90,7 +90,7 @@ export const Main1 = ({ tarifRef }) => {
           Тарифы
         </p>
       </div>
-      <p className="cd:text-[3rem] text-[1rem] text-[white]">
+      <p className="cd:text-[3rem] text-[1rem] cd:mt-0 mt-12 text-[white]">
         WB'ДЕ СООДА КЫЛУУ
       </p>
 
