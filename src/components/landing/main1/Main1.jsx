@@ -1,20 +1,12 @@
 import React, { useEffect, useState } from "react";
-// import CARTEL from "../../../assets/1920.webp";
-import {
-  FirstImage,
-  FourthImage,
-  SecondImage,
-  ThirdImage,
-} from "../../../assets";
 import "aos/dist/aos.css";
 import AOS from "aos";
 import "./Main1.css";
-import { Link } from "react-router-dom";
-// import { Link, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export const Main1 = ({ tarifRef }) => {
-  // const [userName, setUserName] = useState("");
-  // const navigate = useNavigate();
+  const [userName, setUserName] = useState("");
+  const navigate = useNavigate();
 
   useEffect(() => {
     AOS.init({
@@ -25,18 +17,17 @@ export const Main1 = ({ tarifRef }) => {
       once: false,
       anchorPlacement: "top-center",
     });
-
-    // const userInfo = JSON.parse(localStorage.getItem("userInfo"));
-    // if (userInfo) {
-    //   setUserName(userInfo.displayName);
-    // }
+    const userInfo = JSON.parse(localStorage.getItem("userInfo"));
+    if (userInfo) {
+      setUserName(userInfo.displayName);
+    }
   }, []);
 
-  // const handleLogout = () => {
-  //   localStorage.removeItem("userInfo");
-  //   setUserName("");
-  //   navigate("/");
-  // };
+  const handleLogout = () => {
+    localStorage.removeItem("userInfo");
+    setUserName("");
+    navigate("/");
+  };
 
   return (
     <div className="flex flex-col items-center bg-[#000000]">
@@ -46,9 +37,9 @@ export const Main1 = ({ tarifRef }) => {
       >
         ОНЛАЙН-ОКУУ КУРСУ
       </p>
-      {/* {userName && <p className="text-white mt-2">{userName}</p>} */}
+      {userName && <p className="text-white my-4">{userName}</p>}
 
-      {/* {!userName ? (
+      {!userName ? (
         <Link to="login">
           <div className="border-2 border-[#0f3460]">
             <p className="text-white cd:text-[1,5rem] py-3 px-8 text-[1rem] cd:text-start text-center">
@@ -65,7 +56,8 @@ export const Main1 = ({ tarifRef }) => {
             Выйти
           </p>
         </div>
-      )} */}
+      )}
+
       <div data-aos="fade-right" className="mt-8 cd:w-full w-[13rem]">
         <p className="text-[white] md:text-[1.3rem] text-[1rem] cd:ml-0  cd:text-center text-center  ">
           <span className="text-[#e94560] ">WILDBERRIES'ти </span> Актилек
@@ -93,7 +85,6 @@ export const Main1 = ({ tarifRef }) => {
       <p className="cd:text-[3rem] text-[1rem] cd:mt-0 mt-12 text-[white]">
         WB'ДЕ СООДА КЫЛУУ
       </p>
-
       <div className="cd:w-[60rem] w-[20rem] text-center flex flex-col  items-center cd:ml-[3rem] ml-0 h-[15vh] ">
         <p
           data-aos="fade-right"

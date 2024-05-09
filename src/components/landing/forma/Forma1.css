@@ -101,7 +101,11 @@ h6 span {
   transform-style: preserve-3d;
   perspective: 800px;
   margin-top: 60px;
+  @media (max-width: 500px) {
+    width: 300px;
+  }
 }
+
 .card-3d-wrapper {
   width: 100%;
   height: 100%;

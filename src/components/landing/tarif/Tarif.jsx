@@ -83,6 +83,7 @@ export const Tarif = ({ tarifRef }) => {
               className="text-[1.4rem] font-bold text-[purple] cd:text-start text-center"
             >
               БАЗАЛЫК ТАРИФ
+              <span className="text-[red]">(орун жок)</span>
             </p>
             <p
               data-aos="fade-right"
@@ -129,6 +130,7 @@ export const Tarif = ({ tarifRef }) => {
               className="text-[1.4rem] font-bold text-[purple] cd:text-start text-center"
             >
               ЭКСПЕРТ ТАРИФИ
+              <span className="text-[red]">(орун жок)</span>
             </p>
 
             <p
@@ -181,6 +183,7 @@ export const Tarif = ({ tarifRef }) => {
               className="text-[1.4rem] font-bold text-[purple] mt-8 cd:px-0 px-[3rem]"
             >
               Жеке наставничество
+              <span className="text-[red]">(орун жок)</span>
             </p>
             <p data-aos="fade-right" className="text-white cd:px-0 px-[3rem]">
               <span className="text-[grey] line-through">120 000</span> 1000$
